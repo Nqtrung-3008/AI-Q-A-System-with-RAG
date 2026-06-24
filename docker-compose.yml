@@ -1,0 +1,105 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: rag_db
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    networks:
+      - app_network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+
+    ports:
+      - "11434:11434"
+
+    volumes:
+      - ollama_data:/root/.ollama
+
+    networks:
+      - app_network
+
+    restart: unless-stopped
+
+  backend:
+    container_name: backend
+
+    build:
+      context: ./backend
+
+    ports:
+      - "8000:8000"
+
+    command: >
+      sh -c "
+      echo 'Waiting for DB...' &&
+      alembic upgrade head &&
+      uvicorn backend.src.main:app --host 0.0.0.0 --port 8000
+      "
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_started
+
+    environment:
+      RAW_DOCUMENT: /workspace/data/raw/raw_ai.txt
+      PROCESSED_DOCUMENT: /workspace/data/processed/processed_ai.txt
+      EMBEDDING_CACHE: /workspace/data/embedding_cache
+      VECTORSTORE: /workspace/vectorstore/FAISS_db
+      EVALUATION: /workspace/data/evaluation
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./backend:/workspace/backend
+      - ./vectorstore:/workspace/vectorstore
+      - ./data:/workspace/data
+      - ./scripts:/workspace/scripts
+
+    networks:
+      - app_network
+
+  frontend:
+    container_name: frontend
+
+    build:
+      context: ./frontend
+
+    ports:
+      - "8501:8501"
+
+    depends_on:
+      - backend
+
+    env_file:
+      - .env
+
+    networks:
+      - app_network
+
+volumes:
+  postgres_data:
+  ollama_data:
+
+networks:
+  app_network:

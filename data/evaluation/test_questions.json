@@ -1,0 +1,440 @@
+[
+  {
+    "question": "What is artificial intelligence (AI)?",
+    "relevant_chunk_ids": [
+      1
+    ]
+  },
+  {
+    "question": "What does accurate and efficient reasoning mean in artificial intelligence?",
+    "relevant_chunk_ids": [
+      7
+    ]
+  },
+  {
+    "question": "What are formal knowledge representations in artificial intelligence?",
+    "relevant_chunk_ids": [
+      8
+    ]
+  },
+  {
+    "question": "What is a knowledge base in artificial intelligence?",
+    "relevant_chunk_ids": [
+      9
+    ]
+  },
+  {
+    "question": "What are the most difficult problems in knowledge representation, including the breadth of commonsense knowledge?",
+    "relevant_chunk_ids": [
+      10
+    ]
+  },
+  {
+    "question": "How does game theory describe the rational behavior of multiple interacting agents?",
+    "relevant_chunk_ids": [
+      14
+    ]
+  },
+  {
+    "question": "What is machine learning?",
+    "relevant_chunk_ids": [
+      15
+    ]
+  },
+  {
+    "question": "What is transfer learning?",
+    "relevant_chunk_ids": [
+      16
+    ]
+  },
+  {
+    "question": "What is machine perception?",
+    "relevant_chunk_ids": [
+      18
+    ]
+  },
+  {
+    "question": "What is affective computing, and how does it relate to social intelligence in artificial intelligence?",
+    "relevant_chunk_ids": [
+      19
+    ]
+  },
+  {
+    "question": "What are search and optimization in artificial intelligence?",
+    "relevant_chunk_ids": [
+      20
+    ]
+  },
+  {
+    "question": "How do artificial intelligence systems use search and optimization to solve problems?",
+    "relevant_chunk_ids": [
+      21
+    ]
+  },
+  {
+    "question": "What is adversarial search?",
+    "relevant_chunk_ids": [
+      22
+    ]
+  },
+  {
+    "question": "What is evolutionary computation as a type of local search?",
+    "relevant_chunk_ids": [
+      23
+    ]
+  },
+  {
+    "question": "What is formal logic, and how is it used in artificial intelligence?",
+    "relevant_chunk_ids": [
+      24
+    ]
+  },
+  {
+    "question": "Why is inference in Horn clause logic and first-order logic undecidable or computationally intractable?",
+    "relevant_chunk_ids": [
+      26
+    ]
+  },
+  {
+    "question": "How do non-monotonic logic systems respond when a new observation conflicts with a previous conclusion?",
+    "relevant_chunk_ids": [
+      29
+    ]
+  },
+  {
+    "question": "What are the main types of classifiers used in statistical learning?",
+    "relevant_chunk_ids": [
+      30
+    ]
+  },
+  {
+    "question": "What is an artificial neural network?",
+    "relevant_chunk_ids": [
+      31
+    ]
+  },
+  {
+    "question": "What are long short-term memory networks (LSTMs)?",
+    "relevant_chunk_ids": [
+      33
+    ]
+  },
+  {
+    "question": "What are generative pre-trained transformers (GPTs)?",
+    "relevant_chunk_ids": [
+      39
+    ]
+  },
+  {
+    "question": "What are some current GPT-based models and services?",
+    "relevant_chunk_ids": [
+      40
+    ]
+  },
+  {
+    "question": "How did GPUs with AI-specific enhancements and specialized software such as TensorFlow become dominant over CPUs in AI computing?",
+    "relevant_chunk_ids": [
+      41
+    ]
+  },
+  {
+    "question": "What are the main applications of artificial intelligence and machine learning technology?",
+    "relevant_chunk_ids": [
+      42
+    ]
+  },
+  {
+    "question": "How are artificial intelligence and machine learning technologies applied across different fields?",
+    "relevant_chunk_ids": [
+      43
+    ]
+  },
+  {
+    "question": "How can natural-language descriptions of mathematical problems be converted into formal languages such as Lean?",
+    "relevant_chunk_ids": [
+      50
+    ]
+  },
+  {
+    "question": "What role does artificial intelligence play in research?",
+    "relevant_chunk_ids": [
+      52
+    ]
+  },
+  {
+    "question": "What are AI agents, and how do they operate?",
+    "relevant_chunk_ids": [
+      56
+    ]
+  },
+  {
+    "question": "How is artificial intelligence used in web search?",
+    "relevant_chunk_ids": [
+      58
+    ]
+  },
+  {
+    "question": "How are AI algorithms used to identify online gender-based violence and the sexual grooming of minors?",
+    "relevant_chunk_ids": [
+      60
+    ]
+  },
+  {
+    "question": "How do opinions differ regarding widespread AI-enabled surveillance?",
+    "relevant_chunk_ids": [
+      62
+    ]
+  },
+  {
+    "question": "Why do AI developers argue that extensive data collection is necessary, and what privacy-preserving techniques do they use?",
+    "relevant_chunk_ids": [
+      63
+    ]
+  },
+  {
+    "question": "What is generative AI, and what copyright concerns are associated with its training data?",
+    "relevant_chunk_ids": [
+      64
+    ]
+  },
+  {
+    "question": "What other approaches have been proposed to address copyright concerns involving generative AI?",
+    "relevant_chunk_ids": [
+      65
+    ]
+  },
+  {
+    "question": "How does the dominance of technology giants affect the commercial AI industry?",
+    "relevant_chunk_ids": [
+      66
+    ]
+  },
+  {
+    "question": "What environmental impacts are associated with the energy consumption of artificial intelligence systems?",
+    "relevant_chunk_ids": [
+      78
+    ]
+  },
+  {
+    "question": "How can bias be introduced through the selection or preparation of training data?",
+    "relevant_chunk_ids": [
+      81
+    ]
+  },
+  {
+    "question": "What is COMPAS, and how is it used?",
+    "relevant_chunk_ids": [
+      83
+    ]
+  },
+  {
+    "question": "What criticisms have been made of COMPAS regarding algorithmic bias and fairness?",
+    "relevant_chunk_ids": [
+      85
+    ]
+  },
+  {
+    "question": "Why can bias and unfairness in artificial intelligence systems go undetected by developers?",
+    "relevant_chunk_ids": [
+      86
+    ]
+  },
+  {
+    "question": "What is one broad category of methods used to reduce algorithmic bias?",
+    "relevant_chunk_ids": [
+      87
+    ]
+  },
+  {
+    "question": "How can access to sensitive attributes such as race or gender help detect and reduce algorithmic bias?",
+    "relevant_chunk_ids": [
+      88
+    ]
+  },
+  {
+    "question": "Why does the lack of transparency in many artificial intelligence systems create problems?",
+    "relevant_chunk_ids": [
+      89
+    ]
+  },
+  {
+    "question": "Why can it be difficult to determine whether an opaque artificial intelligence system is operating correctly?",
+    "relevant_chunk_ids": [
+      90
+    ]
+  },
+  {
+    "question": "Why did an AI model associate asthma with a lower risk of death from pneumonia, and why was this conclusion misleading?",
+    "relevant_chunk_ids": [
+      91
+    ]
+  },
+  {
+    "question": "What did industry experts note about the limitations of explanations produced by artificial intelligence systems?",
+    "relevant_chunk_ids": [
+      92
+    ]
+  },
+  {
+    "question": "What risks arise when bad actors weaponize artificial intelligence?",
+    "relevant_chunk_ids": [
+      95
+    ]
+  },
+  {
+    "question": "What is a lethal autonomous weapon?",
+    "relevant_chunk_ids": [
+      96
+    ]
+  },
+  {
+    "question": "How can governments use AI facial-recognition systems for mass surveillance?",
+    "relevant_chunk_ids": [
+      97
+    ]
+  },
+  {
+    "question": "What risks and abuses are associated with AI facial-recognition systems?",
+    "relevant_chunk_ids": [
+      98
+    ]
+  },
+  {
+    "question": "What other ways can artificial intelligence be used by authoritarian governments to control citizens?",
+    "relevant_chunk_ids": [
+      99
+    ]
+  },
+  {
+    "question": "Why does artificial intelligence not need human-like sentience to pose an existential risk?",
+    "relevant_chunk_ids": [
+      104
+    ]
+  },
+  {
+    "question": "How could modern artificial intelligence programs pose risks even without consciousness?",
+    "relevant_chunk_ids": [
+      106
+    ]
+  },
+  {
+    "question": "What did Geoffrey Hinton say in 2025 about the risks posed by modern artificial intelligence?",
+    "relevant_chunk_ids": [
+      108
+    ]
+  },
+  {
+    "question": "Why do some researchers consider advanced artificial intelligence research an existential-risk concern?",
+    "relevant_chunk_ids": [
+      111
+    ]
+  },
+  {
+    "question": "What is friendly AI, and how does it relate to ethical machines and AI alignment?",
+    "relevant_chunk_ids": [
+      113
+    ]
+  },
+  {
+    "question": "What are open-weight artificial intelligence models?",
+    "relevant_chunk_ids": [
+      116
+    ]
+  },
+  {
+    "question": "What open-source tool is available under an MIT license for artificial intelligence safety evaluations?",
+    "relevant_chunk_ids": [
+      120
+    ]
+  },
+  {
+    "question": "What is GPT-3?",
+    "relevant_chunk_ids": [
+      141
+    ]
+  },
+  {
+    "question": "What philosophical topics are raised by artificial intelligence?",
+    "relevant_chunk_ids": [
+      143
+    ]
+  },
+  {
+    "question": "How can artificial intelligence be defined?",
+    "relevant_chunk_ids": [
+      145
+    ]
+  },
+  {
+    "question": "How are artificial intelligence systems legally defined?",
+    "relevant_chunk_ids": [
+      149
+    ]
+  },
+  {
+    "question": "What does the physical symbol system hypothesis claim is necessary and sufficient for general intelligent action?",
+    "relevant_chunk_ids": [
+      151
+    ]
+  },
+  {
+    "question": "Why is finding a provably correct or optimal solution often impractical in artificial intelligence?",
+    "relevant_chunk_ids": [
+      155
+    ]
+  },
+  {
+    "question": "What is artificial general intelligence?",
+    "relevant_chunk_ids": [
+      156
+    ]
+  },
+  {
+    "question": "Is there a widely accepted definition or test for general intelligence in machines?",
+    "relevant_chunk_ids": [
+      157
+    ]
+  },
+  {
+    "question": "What is computationalism, and how does it relate to functionalism?",
+    "relevant_chunk_ids": [
+      160
+    ]
+  },
+  {
+    "question": "What ethical questions arise concerning artificial intelligence welfare and rights?",
+    "relevant_chunk_ids": [
+      162
+    ]
+  },
+  {
+    "question": "Could advanced artificial intelligence systems deserve moral consideration or legal rights?",
+    "relevant_chunk_ids": [
+      164
+    ]
+  },
+  {
+    "question": "What is a superintelligence, and how does it relate to the technological singularity?",
+    "relevant_chunk_ids": [
+      165
+    ]
+  },
+  {
+    "question": "What have Kevin Warwick and Ray Kurzweil predicted about humans merging with machines?",
+    "relevant_chunk_ids": [
+      166
+    ]
+  },
+  {
+    "question": "How do fictional characters such as Gort from The Day the Earth Stood Still and Bishop from Aliens portray artificial intelligence?",
+    "relevant_chunk_ids": [
+      167
+    ]
+  },
+  {
+    "question": "How does Philip K. Dick use artificial intelligence to question our understanding of human subjectivity?",
+    "relevant_chunk_ids": [
+      169
+    ]
+  }
+]

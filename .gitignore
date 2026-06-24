@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+
+# Database and local runtime files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated RAG artifacts
+data/embedding_cache/
+vectorstore/FAISS_db/
+
+# Generated evaluation outputs
+scripts/generate_question.py
+data/evaluation/evaluation_report.json
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Docker local overrides
+docker-compose.override.yml
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
