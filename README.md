@@ -34,7 +34,6 @@ A retrieval-augmented question answering system for AI-related documents. The pr
 |   +-- requirements.txt
 +-- scripts/
 |   +-- ingest_data.py           # Build processed document and FAISS index
-|   +-- generate_question.py     # Generate evaluation questions
 |   +-- eval_rag.py              # Evaluate retrieval recall/MRR
 |   +-- test_query.py            # Legacy quick-test script
 +-- data/
